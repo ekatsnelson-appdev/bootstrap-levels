@@ -1,0 +1,34 @@
+
+  body{
+    padding: 50px;
+  }
+
+  /* Write your CSS here to make the div look like a button. */
+  .basic-button {
+    padding: 15px 10px;
+    color: black;
+    border: solid;
+    border-radius: 7px;
+    line-height: 10px;
+  }
+  .basic-button:hover {
+    box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+  }
+  
+  .pretty-button {
+    background-color: lightblue;
+  }
+
+  .pretty-button:hover {
+    background-color: lightgreen;
+  }
+
+  .success-button {
+    background-color: rgb(35, 255, 35);
+  }
+
+  .success-button:hover {
+    background-color: lightseagreen;
+  }
